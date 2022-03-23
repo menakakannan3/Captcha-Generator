@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>captcha generator</title>
+    <link rel="stylesheet" href="./styles.css">
+    <!--js link-->
+    <script src="./app.js" defer></script>
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=El+Messiri&family=Fredoka:wght@300&family=Gloria+Hallelujah&family=Orbitron:wght@500&family=Poppins:wght@200&family=Press+Start+2P&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="center">
+        <div class="heading">
+        <h2>captcha Generator</h2>
+        </div>
+        <div class="inputone">
+            <input type="text" readonly id="firstinput" class="firstinputt">
+        </div>
+        <div class="secondinput">
+            <input type="text" id="entercaptcha" class="inputtwo" placeholder="Enter the captcha...">
+        </div>
+        <div class="checkbutton">
+            <button onclick="check()" class="btn">check me </button>
+        </div>
+        <div class="generatebutton">
+            <button onclick="generate()" class="btn">Gnerate New</button>
+        </div>
+        <div class="result">
+            <h2 id="resultmessage"></h2>
+        </div>
+    </div>
+    
+</body>
+</html>
